@@ -10,26 +10,26 @@ export const SectionComponents = styled.section`
 `;
 export const Title = styled.h1`
     font-weight: 500;
-    font-size: 28px;
-    text-align: center;
+    font-size: 32px;
 `;
 export const Button = styled.button`
     display: inline-block;
-    margin 0 10px;
-    padding 7px;
+    padding: 5px 10px;
+    margin: 25px;
     font-size: 16px;
     border: 1px solid gray;
     border-radius: 5px;
-
+    background: lightblue;
 `;
 export const Message = styled.h3`
-    font-size: 24px;
+    font-size: 20px;
+    color: grey;
 `;
 export const StatisticItem= styled.p`
     display: flex;
     justify-content: space-between;
-    align-atems: center;
     border: 1px solid gray;
     font-weight: 400;
     font-size: 16px;
+    background: lightblue;
 `
