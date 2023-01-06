@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {Title, SectionComponents} from "components/Components.styled"
+import {Title, SectionComponents} from "components/Components.styled";
 
 export default function Section({title, children}){
     return(
@@ -8,9 +8,9 @@ export default function Section({title, children}){
             {children}
         </SectionComponents>
     )
-}
+};
 
 Section.propTypes ={
     title: PropTypes.string,
     children: PropTypes.node.isRequired,
-}
+};

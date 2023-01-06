@@ -41,10 +41,10 @@ leaveFeedback = event =>{
 
 countTotalFeedback(){
   const values = Object.values(this.state);
-  let total = 0;
-  for (const value of values){
-    total += value;
-  }
+  let total = values.reduce((a,c)=> a+=c);
+  // for (const value of values){
+  //   total += value;
+  // }
   return total;
 };
 
